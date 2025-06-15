@@ -1,7 +1,7 @@
 ## Requirements
 
-[ox_lib](https://github.com/overextended/ox_lib/releases)
-[lb_phone](https://store.lbscripts.com/package/5356987) - Can be disabled/removed, only required for phone notification
+[ox_lib](https://github.com/overextended/ox_lib/releases)  
+[lb_phone](https://store.lbscripts.com/package/5356987) - Can be disabled/removed, only required for phone notification  
 
 QBOX Install - Navigate to this line: https://github.com/Qbox-project/qbx_core/blob/main/config/server.lua#L131 
 
