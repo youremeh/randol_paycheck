@@ -7,7 +7,8 @@ function GetPlayer(id)
 end
 
 function DoNotification(src, text, nType)
-    TriggerClientEvent('QBCore:Notify', src, text, nType)
+    --TriggerClientEvent('QBCore:Notify', src, text)
+    exports['lb-phone']:SendNotification(src, {app = 'Wallet', title = nType, content = text})
 end
 
 function GetPlyIdentifier(Player)

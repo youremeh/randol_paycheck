@@ -28,5 +28,6 @@ function hasPlyLoaded()
 end
 
 function DoNotification(text, nType)
-    QBCore.Functions.Notify(text, nType)
+    --QBCore.Functions.Notify(text, nType)
+    exports['lb-phone']:SendNotification({app = 'Wallet', title = nType, content = text})
 end
