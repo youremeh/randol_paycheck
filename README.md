@@ -1,10 +1,11 @@
+a paycheck script that supports multiple locations instead of only 1  
+
 ## Requirements
 
 [ox_lib](https://github.com/overextended/ox_lib/releases)  
 [lb_phone](https://store.lbscripts.com/package/5356987) - Can be disabled/removed, only required for phone notification  
 
-QBOX Install - Navigate to this line: https://github.com/Qbox-project/qbx_core/blob/main/config/server.lua#L131 
-
+QBOX Install - Navigate to this line: https://github.com/Qbox-project/qbx_core/blob/main/config/server.lua#L131  
 ```lua
 sendPaycheck = function (player, payment)
     exports.randol_paycheck:AddToPaycheck(player.PlayerData.citizenid, payment)
